@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #fdfdfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.register-card {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  padding: 40px;
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  width: 60px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.subtext {
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  width: 100%;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.submit-btn {
+  background-color: #e60023;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #c4001f;
+}
+
+.forgot-link {
+  display: block;
+  margin: 10px 0;
+  color: #555;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.divider {
+  margin: 20px 0;
+  position: relative;
+  text-align: center;
+  color: #aaa;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  height: 1px;
+  width: 40%;
+  background: #ddd;
+  position: absolute;
+  top: 50%;
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+.social-btn {
+  width: 100%;
+  padding: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.fb-btn {
+  background-color: #3b5998;
+  color: white;
+  border: none;
+}
+
+.google-btn {
+  background-color: white;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #777;
+}
+
+.terms {
+  margin-bottom: 10px;
+}
+
+.login-link {
+  color: #e60023;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.form-group + .form-group {
+  margin-top: 12px;
+}
+
+.logo {
+  margin-bottom: 8px; /* smaller space */
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
